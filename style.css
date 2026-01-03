@@ -6,12 +6,11 @@
 .hero-section{
     background-image: url(imagess/hero-section-image.jpg);
     height: 600px;
-    width: 1512px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .search-bar{
-   width: 1512px;
    height: 37px;
    background-color: black;
 }
@@ -127,7 +126,7 @@
     margin-top: 5px;
 }
 .discover-section{
-    width: 1512px;
+    width: 100%;
     height: auto;
     margin-top: 30px;
 }
@@ -146,18 +145,18 @@
 }
 .premiun-quality{
     background-color: #F5F5F5;
-    width: 755px;
+    /* width: 755px; */
     height: 420px;
 }
 .quality-content{
-   width: 400px;
+   /* width: 400px; */
     height: 200px;
-   margin: 50px 80px 40px 80px;
+padding: 20px;
 }
 .quality{
     font-size: 29px;
     font-weight: 500;
-    width: 400px;
+    /* width: 400px; */
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .quality-description{
@@ -187,7 +186,7 @@
     gap: 15px;
     align-items: center;
     background: #796F51;
-    width: 1512px;
+    /* width: 1512px; */
     height: 50px;
     font-size: 11px;
     word-spacing: 3px;
@@ -200,7 +199,7 @@
 .parent-4{
     background: #F6F6F3;
      margin-top: 50px;
-        width: 1512px;
+        /* width: 1512px; */
     height: 500px;
 }
 .inside-parent-4{
@@ -260,19 +259,20 @@
 
 }
 .explore-section{
-    width: 1512px;
+    /* width: 1512px; */
     margin-top: 30px;
 }
 .explore-images{
     display: flex;
-    gap: 20px;
-    width: 1200px;
+    gap: 8px;
     height: 300px;
-    margin: 30px 100px 0px 105px;
+    margin-left: 25px;
+    /* margin: 30px 100px 0px 105px; */
 }
 .more-to-explore{
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 20px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 20px;
@@ -281,12 +281,14 @@
 .sofa-section{
  background-image: url(imagess/07b06e0f713eedb7699faef47f002056582b8914.jpg);
     height: 600px;
-    width: 1512px;
+    /* width: 1512px; */
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 80px;
-    padding-top: 400px;
-    padding-left: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 350px;
 }
 .inner-div{
     display: flex;
@@ -325,7 +327,7 @@
       margin-top: 35px;
 }
 .latest-news-article{
-    width: 1512px;
+    /* width: 1512px; */
     height: auto;
     margin-top: 40px;
 }
@@ -333,9 +335,8 @@
     font-size: 30px;
     font-weight: 500;
     color: black;
+text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 600px;
-    width: 400px;
     word-spacing: 3px;
 }
 .flex-2{
@@ -377,7 +378,7 @@
 }
 footer{
     background: #F9F9FB;
-    width: 1512px;
+    /* width: 1512px; */
     height: 350px;
     margin-top: 50px;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -455,7 +456,7 @@ ul li{
     color: white;
     padding-left: 400px;
     padding-top: 15px;
-    width: 1512px;
+    /* width: 1512px; */
     height: 60px;
     display: flex;
     gap: 200px;
