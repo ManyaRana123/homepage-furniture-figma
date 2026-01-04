@@ -141,11 +141,13 @@
 }
 .parent{
     display: flex;
+    justify-content: center;
     margin-top: 60px;
 }
 .premiun-quality{
     background-color: #F5F5F5;
-    /* width: 755px; */
+    width: 765px;
+    padding-left: 30px;
     height: 420px;
 }
 .quality-content{
@@ -204,11 +206,11 @@ padding: 20px;
 }
 .inside-parent-4{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    width: 1000px;
-    height: 300px;
-    margin: 50px 250px 50px 250px;
-    padding-top: 100px;
+    height: 500px;
+    
 }
 .f-div{
     display: flex;
@@ -264,6 +266,7 @@ padding: 20px;
 }
 .explore-images{
     display: flex;
+    justify-content: center;
     gap: 8px;
     height: 300px;
     margin-left: 25px;
@@ -276,7 +279,7 @@ padding: 20px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 20px;
-    margin-left: 105px;
+    margin-left: 155px;
 }
 .sofa-section{
  background-image: url(imagess/07b06e0f713eedb7699faef47f002056582b8914.jpg);
@@ -378,18 +381,16 @@ text-align: center;
 }
 footer{
     background: #F9F9FB;
-    /* width: 1512px; */
     height: 350px;
-    margin-top: 50px;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding-top: 60px;
-      padding-left: 220px;
+      margin-top: 30px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
 }
 .inside-footer{
     display: flex;
-    gap: 100px;
-    width: 1000px;
-    height: 200px;
+    gap: 120px;
 }
 .inside-footer h1{
     font-size: 30px;
@@ -444,7 +445,6 @@ ul li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .inside-footer-2{
-    margin-left: 50px;
     display: flex;
     gap: 80px;
 }
@@ -454,10 +454,9 @@ ul li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #000000;
     color: white;
-    padding-left: 400px;
-    padding-top: 15px;
-    /* width: 1512px; */
     height: 60px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 200px;
 }
