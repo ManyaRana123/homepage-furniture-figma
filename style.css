@@ -105,8 +105,6 @@
 .discover{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    margin-left: 224px;
 }
 .image-1{
     position: absolute;
@@ -114,7 +112,7 @@
     left: 560px;
 }
 .image-2{
-    margin-left: 880px;
+    margin-left: 800px;
     }
 .boxes-container{
     margin-top: 10px;
@@ -132,10 +130,11 @@
 }
 .discover-header{
     display: flex;
+    gap: 445px;
+    justify-content: center;
+    align-items: center;
 }
 .line{
-    margin-left: 450px;
-    margin-top: 30px;
     font-size: 13px;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -146,8 +145,8 @@
 }
 .premiun-quality{
     background-color: #F5F5F5;
-    width: 765px;
-    padding-left: 30px;
+    /* width: 75px; */
+    /* padding-left: 30px; */
     height: 420px;
 }
 .quality-content{
@@ -269,8 +268,6 @@ padding: 20px;
     justify-content: center;
     gap: 8px;
     height: 300px;
-    margin-left: 25px;
-    /* margin: 30px 100px 0px 105px; */
 }
 .more-to-explore{
     font-size: 30px;
@@ -278,8 +275,8 @@ padding: 20px;
     margin-bottom: 20px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    margin-left: 155px;
+    display: flex;
+    justify-content: center;
 }
 .sofa-section{
  background-image: url(imagess/07b06e0f713eedb7699faef47f002056582b8914.jpg);
